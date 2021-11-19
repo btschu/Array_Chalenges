@@ -3,6 +3,7 @@
 
 function alwaysHungry(arr) {
     var count = 0;
+    // your code here
     for (var i = 0; i < arr.length; i++) {
         if(arr[i] == "food") {
             count++;

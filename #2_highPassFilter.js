@@ -5,7 +5,9 @@ function highPass(arr, cutoff) {
     var filteredArr = [];
     // your code here
     for (var i = 0; i < arr.length; i++){
-        arr[i] > 0;
+        if (arr [i] > cutoff) {
+            filteredArr.push(arr[i])
+        }
     }
     return filteredArr;
 }
