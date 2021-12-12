@@ -12,6 +12,3 @@ function highPass(arr, cutoff) {
 }
 var result = highPass([6, 8, 3, 10, -2, 5, 9], 5);
 console.log(result); // we expect back [6, 8, 10, 9]
-
-
-// my answer was the same as the solution video

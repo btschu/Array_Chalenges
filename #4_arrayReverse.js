@@ -14,7 +14,7 @@ var result = reverse(["a", "b", "c", "d", "e"]);
 console.log(result); // we expect back ["e", "d", "c", "b", "a"]
 
 
-// below is how the solution video solved this challenge.
+//! below is how the solution video solved this challenge.
 
 // function reverse(arr) {
 //     var left = 0;
